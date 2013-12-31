@@ -1,29 +1,13 @@
-<?
-readfile("./header.html");
-?>
+<!-- Read in the header of the every page -->
+<? readfile("./header.html"); ?>
+
 <div class="container">
 <table width=100%><tr><td width=80%>
-    <div><a name="home"></a></div>
+    <a name="home"></a></div>
     <H1>Linux Advanced Routing &amp; Traffic Control</H1>
-</td><td></td><td valign=top align=right><a href=http://www.powerdns.com><img
-        src=http://ds9a.nl/pub/pdns88x33c.gif></a><p></td>
+</td><td></td><td valign=top align=right><p></td>
 
-    <tr><td><a href="http://ds9a.nl/">bert hubert</a> (<a
-            href=http://www.powerdns.com>PowerDNS.COM BV</a>) ,<br>
-        <table><tr valign=top><td>
-            Section authors: </td>
-            <td>
-                <a href="http://tgr.kaosu.ch/">Thomas Graf</a>,
-                <a href="http://linuxpower.cx/~greg/">Greg Maxwell</a> <a
-                    href=mailto:greg@linuxpower.cx></a>,
-                <a href=http://slashme.org>Remco van Mook</a> (<a
-                    href=http://www.virtu.nl>Virtu Secure Webservices</a>) <br>
-                Martijn van Oosterhout,
-                Paul B Schroeder,
-                <a href="http://jsp.ds9a.nl/">Jasper Spaans</a>,
-                Pedro Larroy
-            </td></table>
-        <br>
+         <br>
         <a href="#mailinglist">lartc@vger.kernel.org</a>
         (<small>mailing list, the <strong>only</strong> place to send questions!)<br>
             <a href="http://vger.kernel.org/vger-lists.html#lartc">archive of the new mailing list</a>
@@ -53,16 +37,10 @@ readfile("./header.html");
             </td></table>
         </td>
 </table>
-<center>
 
 
-    Massive thanks to:<br>
-    <small>
-        <?
-readfile("./contriblist");
-?>
-    </small></center>
-<p>
+
+
 
     Linux has very advanced Routing, filtering and traffic shaping options.
     This site attempts to document how to configure and use these features.
@@ -204,15 +182,47 @@ Linux kernel itself.
 
 <p>
     <a name="sponsor"></a>
-<H2>Sponsor</h2>
-<a href=http://www.powerdns.com>
-    This site made possible by PowerDNS, for all your domain needs and
-    nameserver software.
+<div id="sponsorship">
+<p>
+<h2>Credits and Sponsorship</h2>
+
+<h3>Founders and Maintainers</h3>
+
+  <a href="http://ds9a.nl/">bert hubert</a>
+  (from <a href=http://www.powerdns.com>PowerDNS.COM BV</a>) created the initial site in 2002.
+  <a href="http://www.hailfinger.org/"> Carl-Daniel Hailfinger</a> took over maintenance
+  and created the git repository.
+  <a href="mailto:richb.hanover@gmail.com">Rich Brown</a> ported the pages to Bootstrap3.
+
+<h3>Section Authors</h3>
+                <a href="http://tgr.kaosu.ch/">Thomas Graf</a>,
+                <a href="http://linuxpower.cx/~greg/">Greg Maxwell</a> <a
+                    href=mailto:greg@linuxpower.cx></a>,
+                <a href=http://slashme.org>Remco van Mook</a> (<a
+                    href=http://www.virtu.nl>Virtu Secure Webservices</a>) <br>
+                Martijn van Oosterhout,
+                Paul B Schroeder,
+                <a href="http://jsp.ds9a.nl/">Jasper Spaans</a>,
+                Pedro Larroy
+
+
+<h3>Our community</3>
+    <small>
+        <? readfile("./contriblist"); ?>
+    </small>
+
+<h3>Site Hosting</h3>
+<a href="http://www.powerdns.com">
+<img style="float:right" src=http://ds9a.nl/pub/pdns88x33c.gif>
 </a>
+    This site made possible by <a href=http://www.powerdns.com>PowerDNS,</a> a great company
+    for all your domain needs and nameserver software.
+</p>
+</div> <!-- sponsor -->
 <br>
 <a href=http://ds9a.nl/>Other ds9a.nl projects.</a>
 <!-- Search Google -->
-<center>
+
     <FORM method=GET action="http://www.google.com/search">
         <TABLE bgcolor="#FFFFFF"><tr><td>
             <A HREF="http://www.google.com/">
@@ -222,17 +232,16 @@ Linux kernel itself.
             <INPUT type=submit name=sa VALUE="Google Search">
         </td></tr></TABLE>
     </FORM>
-</center>
+
 <!-- Search Google -->
-<center>
+
     <small>
         $Id$
 
     </small>
-</center>
+
 
 </div> <!-- end of container -->
 
-<?
-readfile("./footer.html");
-?>
+<!-- Read in the footer for the every page -->
+<? readfile("./footer.html"); ?>
