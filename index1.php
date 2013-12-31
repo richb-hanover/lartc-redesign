@@ -5,19 +5,10 @@
 <table width=100%><tr><td width=80%>
     <a name="home"></a></div>
     <H1>Linux Advanced Routing &amp; Traffic Control</H1>
-</td><td></td><td valign=top align=right><p></td>
 
-         <br>
-        <a href="#mailinglist">lartc@vger.kernel.org</a>
-        (<small>mailing list, the <strong>only</strong> place to send questions!)<br>
-            <a href="http://vger.kernel.org/vger-lists.html#lartc">archive of the new mailing list</a>
-            <a href="http://mailman.ds9a.nl/pipermail/lartc/">archive of the old mailing list</a><br>
-            (<font color=#ff0000><a href=#mailinglist>subscribe</a> before posting!</font>)<br></small>
-        #lartc on <a href=http://www.oftc.net>irc.oftc.net</a> (<a
-                href="http://ds9a.nl/lartcbot/">archives</a>)</td><td valign=bottom align=right>
-
-    </td>
-        <td valign=top>Translations:
+<div id="translations">
+<p>
+        Translations:
             <br>
             <a href=LARTC-zh_CN.GB2312.pdf>[ Chinese (zh_CN.GB2312) ] </a>
             <br><a href=http://www.linux-france.org/prj/inetdoc/guides/Advanced-routing-Howto/>
@@ -30,14 +21,12 @@
                 [ Spanish ]</a>
             <br><a href=http://mr0vka.eu.org/tlumaczenia/2.4routing.html>
                 [ Polish ]</a>
+</p>
+</div> <!-- translations -->
 
-            <p>
             <table bgcolor=#ff0000><tr><td>
                 <a href=wondershaper><font color=#ffffff>ADSL/Cable Wondershaper!</a>
             </td></table>
-        </td>
-</table>
-
 
 
 
@@ -76,10 +65,12 @@
     </tr>
 </table>
 <a name="mailinglist"></a>
-<H2>LARTC Mailinglist</H2>
+<div id="mailinglist">
+<H2>LARTC Mailing List</H2>
+<p>
 It appears that the topic of our HOWTO is getting popular, so we decided to
 start a mailinglist dedicated to discussions about advanced routing &amp;
-shaping with Linux!
+shaping with Linux!</p>
 <p>
     The advent of the Linux Advanced Routing &amp; Traffic Control list also
     means that questions asked privately will no longer be answered, as these
@@ -90,6 +81,7 @@ shaping with Linux!
     archive of the new mailing list</a> is available.  An
     <a href="http://mailman.ds9a.nl/pipermail/lartc/">archive of the old mailing
         list</a> is also available, and google has picked it up as well.
+</p>
 <p>
     <font color=#ff0000>Please note that due to excessive spam the list has
         become 'members only' - so please <a
@@ -98,8 +90,20 @@ shaping with Linux!
     is not available at all times. If you just want to post, and not receive
     mail, you can indicate this on the Mailman mailinglist management page.
     FIXME: Is the new mailing list subscriber-only as well?
+</p>
+<p>
+        <a href="#mailinglist">lartc@vger.kernel.org</a>
+        (<small>mailing list, the <strong>only</strong> place to send questions!)<br>
+            <a href="http://vger.kernel.org/vger-lists.html#lartc">archive of the new mailing list</a>
+            <a href="http://mailman.ds9a.nl/pipermail/lartc/">archive of the old mailing list</a><br>
+            (<font color=#ff0000><a href=#mailinglist>subscribe</a> before posting!</font>)<br></small>
+        #lartc on <a href=http://www.oftc.net>irc.oftc.net</a> (<a
+                href="http://ds9a.nl/lartcbot/">archives</a>)</td><td valign=bottom align=right>
+</p>
+</div> <!-- mailinglist -->
 
-    <a name="download"></a>
+<a name="download"></a>
+<div id="download">
 <H2>Linux Advanced Routing &amp; Traffic Control HOWTO</H2>
 <p>
     Current version is 1.0.0 Files were last updated at
@@ -143,6 +147,8 @@ shaping with Linux!
     <li><a href="lartc.pdf">pdf</A>, <a
             href="lartc.pdf.gz">pdf.gz</A>
 </ul>
+</div> <!-- downloads -->
+
 <a name="jobs"></a>
 <H2>Jobs list</H2>
 Like the Linux kernel, we have a jobs list. If you have any expertise
@@ -153,8 +159,8 @@ in any of these areas, please pitch in.
     <li>IPsec</li>
     <li>Multipath routing
 </ul>
-<a name="bazaar"></a>
-<H2>Bazaar</H2>
+<a name="git"></a>
+<H2>Participate in the project</H2>
 This HOWTO is intended to be very much a <a
         href="http://www.catb.org/~esr/writings/cathedral-bazaar/">Bazaar</a> style development. If it
 
