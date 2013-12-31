@@ -1,6 +1,42 @@
-<html>
-<head><title>Linux Advanced Routing &amp; Traffic Control HOWTO</title>
-<LINK REL="SHORTCUT ICON" HREF="/tux16-16.ico">
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Linux Advanced Routing &amp; Traffic Control HOWTO</title>
+    <LINK REL="SHORTCUT ICON" HREF="/tux16-16.ico">
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <!-- includes styles for navbar & footer -->
+    <link href="/~image/navbar-static-top-footer.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/ui-lightness/jquery-ui.css" />
+
+    <!-- jQuery UI -->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body bgcolor=#ffffff>
 
@@ -71,7 +107,7 @@ in!</font></a></strong>
 Massive thanks to:<br>
 <small>
 <?
-readfile("/home/ahu/content/lartc/cvs/2.4routing/contriblist");
+readfile("./contriblist");
 ?>
 </small></center>
 <p>
