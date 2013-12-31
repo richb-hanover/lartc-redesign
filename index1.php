@@ -1,54 +1,6 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-
-	<title>Linux Advanced Routing &amp; Traffic Control HOWTO</title>
-    <LINK REL="SHORTCUT ICON" HREF="/tux16-16.ico">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-<!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="/">LARTC</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#home">Home</a> </li>
-                <li><a href="#news">News</a> </li>
-                <li><a href="#mailinglist">Mailinglist</a> </li>
-                <li><a href="#download">Download</a></li>
-                <li><a href="manpages/">Manpages</a></li>
-                <li><a href="#howto">HOWTO</a></li>
-                <li><a href="#jobs">Jobs</a> </li>
-                <li><a href="#bazaar">Bazaar</a></li>
-                <li><a href="#sponsor">Sponsor</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</div>
-
+<?
+readfile("./header.html");
+?>
 <div class="container">
 <table width=100%><tr><td width=80%>
     <div><a name="home"></a></div>
@@ -281,13 +233,6 @@ Linux kernel itself.
 
 </div> <!-- end of container -->
 
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- jQuery  -->
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?
+readfile("./footer.html");
+?>
