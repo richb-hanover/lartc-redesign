@@ -20,7 +20,7 @@
 
     <!-- Custom styles for this template -->
     <!-- includes styles for navbar & footer -->
-    <link href="/~image/navbar-static-top-footer.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/navbar-static-top/navbar-static-top.css" rel="stylesheet">
 
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -91,19 +91,51 @@ href="http://ds9a.nl/lartcbot/">archives</a>)</td><td valign=bottom align=right>
 </td>
 </table>
 <center>
-<table border=1>
-<tr>
-<td><a href="#news">News</a> </td>
-<td><a href="#mailinglist">Mailinglist</a> </td>
-<td><strong><a href="#download">Download</a></strong></td>
-<td><a href=manpages/>Manpages</a></td>
-<td><strong><a href=howto><font color=#ff0000>Dive
-in!</font></a></strong>
-<td><a href="#jobs">Jobs</a> </td>
-<td><a href="#bazaar">Bazaar</a></td>
-<td><a href="#sponsor">Sponsor</a>
-</td></tr>
-</table>
+<!-- Beginning of the menu -->
+<!-- Start of static navbar -->
+<div class="navbar navbar-static-top">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">InterMapper Web Server</a>
+        <div class="nav-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#news">News</a> </li>
+                <li><a href="#mailinglist">Mailinglist</a> </li>
+                <li><strong><a href="#download">Download</a></strong></li>
+                <li><a href=manpages/>Manpages</a></li>
+                <li><strong><a href=howto><font color=#ff0000>Dive in!</font></a></strong></li>
+                <li><a href="#jobs">Jobs</a> </li>
+                <li><a href="#bazaar">Bazaar</a></li>
+                <li><a href="#sponsor">Sponsor</a></li>
+                <!-- end of new stuff...
+                <li><a href="/~admin/about_screen.html">About InterMapper Web GUI</a></li>
+                <li>"Map List"</li>
+                <li>"Errors"</li>
+                <li>"Full"</li>
+                <li>"Outages"</a></li>
+                <li>"Device List"</li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/~admin/about_screen.html">About InterMapper Web GUI</a></li>
+                        <li><a href="/~admin/AddProbe.html">Add a Probe</a></li>
+                        <li><a href="/~admin/FileViewer.html">View Files</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://download.intermapper.com/docs/UserGuide/" target="_blank">User Guide</a></li>
+                        <li><a href="http://download.intermapper.com/docs/DevGuide/" target="_blank">Developer Guide</a></li>
+                    </ul>
+                </li>
+                -->
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!-- End of Static navbar -->
+
 Massive thanks to:<br>
 <small>
 <?
