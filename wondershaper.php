@@ -1,6 +1,8 @@
-<html>
-<head><title>Wonder Shaper</title>
-<body bgcolor=#ffffff>
+<!-- Read in the header of the every page -->
+<? readfile("../header.html"); ?>
+
+<div class="container">     <!-- Content of the document -->
+
 <H1>The Wonder Shaper</H1>
 <a href=http://ds9a.nl>bert hubert</a> &lt;ahu@ds9a.nl&gt;<br>
 &copy; Copyright 2002<br>
@@ -55,4 +57,14 @@ tiny bit of bandwidth. The reason that uploads, downloads and ssh hurt
 eachother is the presence of large queues in many domestic access devices
 like cable or DSL modems.
 
-</body></html>
+    <div id="siteID">
+        <small>
+            $Id$
+
+        </small>
+    </div> <!-- siteID -->
+
+</div> <!-- end of content of the document -->
+
+<!-- Read in the footer for the every page -->
+<? readfile("../footer.html"); ?>
