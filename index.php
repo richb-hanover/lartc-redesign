@@ -1,10 +1,17 @@
 <!-- Read in the header of the every page -->
 <? readfile("./header.html"); ?>
 
-<div class="container">
-<table width=100%><tr><td width=80%>
-    <a name="home"></a></div>
-    <H1>Linux Advanced Routing &amp; Traffic Control</H1>
+<div class="container">     <!-- Content of the document -->
+
+<a name="home"></a>
+<div id="home">
+<H1>Linux Advanced Routing &amp; Traffic Control</H1>
+    <p>
+    Linux has very advanced Routing, filtering and traffic shaping options.
+    This site documents how to configure and use these features, as well
+    as a whole body of information about Linux networking.
+    </p>
+</div> <!-- home -->
 
 <div id="translations">
 <p>
@@ -24,21 +31,20 @@
 </p>
 </div> <!-- translations -->
 
-            <table bgcolor=#ff0000><tr><td>
-                <a href=wondershaper><font color=#ffffff>ADSL/Cable Wondershaper!</a>
-            </td></table>
+<div id="wondershaper">
+    <p>Looking for the <a href="wondershaper/index.php">ADSL/Cable Wondershaper?</a>
+        It's getting better!
+    </p>
+</div> <!-- wondershaper -->
 
 
-
-
-    Linux has very advanced Routing, filtering and traffic shaping options.
-    This site attempts to document how to configure and use these features.
 
 <div><a name="news"></a></div>
 <h2>News</H2>
 <table border=1>
     <tr><td valign=top>2012-05-20</td>
         <td>lartc.org is now reachable via IPv6!</td>
+    </tr>
     <tr><td valign=top>2012-05-19</td>
         <td>lartc.org has a new maintainer!<br>
             <a href="http://ds9a.nl/">Bert Hubert</a> has transferred ownership of
@@ -160,6 +166,7 @@ in any of these areas, please pitch in.
     <li>Multipath routing
 </ul>
 <a name="git"></a>
+<div id="git">
 <H2>Participate in the project</H2>
 This HOWTO is intended to be very much a <a
         href="http://www.catb.org/~esr/writings/cathedral-bazaar/">Bazaar</a> style development. If it
@@ -186,7 +193,8 @@ The idea is that this HOWTO will be a cooperative effort, much like the
 Linux kernel itself.
 </p>
 
-<p>
+</div> <!-- git -->
+
     <a name="sponsor"></a>
 <div id="sponsorship">
 <p>
@@ -224,9 +232,11 @@ Linux kernel itself.
     This site made possible by <a href=http://www.powerdns.com>PowerDNS,</a> a great company
     for all your domain needs and nameserver software.
 </p>
-</div> <!-- sponsor -->
 <br>
 <a href=http://ds9a.nl/>Other ds9a.nl projects.</a>
+</div> <!-- sponsor -->
+
+<div id="sitesearch">
 <!-- Search Google -->
 
     <FORM method=GET action="http://www.google.com/search">
@@ -240,14 +250,16 @@ Linux kernel itself.
     </FORM>
 
 <!-- Search Google -->
+</div> <!-- site search -->
 
+<div id="siteID">
     <small>
         $Id$
 
     </small>
+</div> <!-- siteID -->
 
-
-</div> <!-- end of container -->
+</div> <!-- end of content of the document -->
 
 <!-- Read in the footer for the every page -->
 <? readfile("./footer.html"); ?>
