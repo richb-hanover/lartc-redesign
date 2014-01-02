@@ -45,6 +45,7 @@
         </p>
     </div> <!-- wondershaper -->
 
+    <a name="howto"></a>
     <div id="download">
     <h2>The HOWTO</h2>
     <p>
