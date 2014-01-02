@@ -3,64 +3,74 @@
 
 <div class="container">     <!-- Content of the document -->
 
-<a name="home"></a>
+    <a name="home"></a>
 <div id="home">
 <H1>Linux Advanced Routing &amp; Traffic Control</H1>
     <p>
-    Linux has very advanced routing, filtering and traffic shaping options.
-    This site documents how to configure and use these features, as well
-    as a whole body of information about Linux networking.
+        Linux has very advanced routing, filtering and traffic shaping options.
+        This site documents how to configure and use these features, as well
+        as a whole body of information about Linux networking.
     </p>
     <p>
-        Everybody is invited to contribute to lartc.org and a git tree for the
-        website (including LARTC HOWTO, Wondershaper and man pages) has been
-        created at <a href="http://repo.or.cz/w/lartc.git">
+        This site pulls together information about the Linux ip and tc
+        commands that are part of the iproute2 package that provide this power and flexibility.
+        Read the HOWTO section for the full run-down of
+    </p>
+    <p>
+        The pages of this site are also contained in a git repository so that others can contribute to the site.
+        See the <a href="index.php#participate">Participate</a> section for more details.
+        You can also read the <a href="manpages.php" target="_blank">manpages section</a>
+        to learn about individual tc and ip commands.
+
+        <!-- http://repo.or.cz/w/lartc.git">
         http://repo.or.cz/w/lartc.git</a>. Please send any patches or
         pull requests to the LARTC mailing list
         <a href="mailto:lartc@vger.kernel.org">lartc@vger.kernel.org</a> and
-        I'll try to integrate them in a timely manner.
+        I'll try to integrate them in a timely manner.-->
+    <p>
+
     </p>
 </div> <!-- home -->
 
+    <div id="wondershaper" style="float:right; width:200px;background:#eee;padding:10px;border-radius: 6px;">
+        <h4>Wondershaper</h4>
+        <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php">It's getting better!</a>
 
-<div id="wondershaper" style="float:right; width:200px;background:#eee;padding:8px;">
-    <h4>Wondershaper</h4>
-    <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php">It's getting better!</a>
+        </p>
+    </div> <!-- wondershaper -->
 
-    </p>
-</div> <!-- wondershaper -->
+    <div id="download">
+    <h2>The HOWTO</h2>
+    <p>
+        <!-- Current version of the LARTC HOWTO is 1.0.0. Files were last updated at
+        <?
+        date_default_timezone_set("EST");
+        if(!($st=stat("lartc.db")))
+            $st=stat("lartc.db");
+        print date("Y-m-d H:i",$st[9]);
+        print " CET ";
 
-
-<a name="download"></a>
-<div id="download">
-<p>
-    Current version of the LARTC HOWTO is 1.0.0. Files were last updated at
-    <?
-    date_default_timezone_set("EST");
-	if(!($st=stat("lartc.db")))
-		$st=stat("lartc.db");
-	print date("Y-m-d H:i",$st[9]);
-	print " CET ";
-
-	printf("(ie, about %.1f hours ago). ",((time()-$st[9])/3600));
-	if(((time()-$st[9])/3600)<1)
-	{
-		print "There has been a recent update - use of shift-reload".
-		       " is advised!";
-	}
-?>
- <ul>
-    <li>The HOWTO, in
-        <a href="howto/">HTML</A>,
-        <a href="lartc.html">One-big-page HTML</A>,
-        <a href="html.tar.gz">HTML tarfile</A></li>
-    <li><a href="lartc.ps">ps</A>, <a href="lartc.ps.gz">ps.gz</A></li>
-    <li><a href="lartc.pdf">pdf</A>, <a href="lartc.pdf.gz">pdf.gz</A>
-    <li><a href="lartc.db">DocBook SGML</A>
-    <li><a href="lartc.txt">ASCII</A> (.txt)
-    <li><a href="changelog.txt">GIT Changelog</a>
-</ul>
-</div> <!-- downloads -->
+        printf("(ie, about %.1f hours ago). ",((time()-$st[9])/3600));
+        if(((time()-$st[9])/3600)<1)
+        {
+            print "There has been a recent update - use of shift-reload".
+                   " is advised!";
+        }
+    ?>-->
+    The HOWTO, in several formats:
+     <ul>
+        <li>
+            <a href="howto/"        target="_blank">HTML</A>,
+            <a href="lartc.html"    target="_blank">One-big-page HTML</A>,
+            <a href="html.tar.gz"   target="_blank">HTML tarfile</A></li>
+        <li><a href="lartc.ps"      target="_blank">ps</A>, <a href="lartc.ps.gz">ps.gz</A></li>
+        <li><a href="lartc.pdf"     target="_blank">pdf</A>, <a href="lartc.pdf.gz">pdf.gz</A>
+        <li><a href="lartc.db"      target="_blank">DocBook SGML</A>
+        <li><a href="lartc.txt"     target="_blank">ASCII</A> (.txt)
+        <li><a href="changelog.txt" target="_blank">GIT Changelog</a>
+    </ul>
+        Current version is 1.0.1. Files were last updated at 2012-05-19 12:40:48 UTC.
+    </div> <!-- HOWTO -->
 
     <div id="translations">
         <p>
