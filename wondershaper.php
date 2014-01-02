@@ -58,19 +58,34 @@
         decade, so there are better techniques (like fq_codel, pie, etc) that perform even better.
     </p>
     <p>
-        Finally, the earlier Wondershaper doesn't take into account newer technologies,
-        such as voice or video chat, gaming, IPv6, etc.
+        Finally, the original Wondershaper simply doesn't take into account newer technologies,
+        such as voice or video chat, gaming, larger MTU's, PPPoE, ATM, IPv6, etc.
+        See, for example, Dave T&auml;ht's
+        <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Wondershaper_Must_Die">
+            Wondershaper Must Die editorial.</a>, where he writes:
+    <blockquote>
+        At the time wondershaper was developed, DSL MTUs were typically 584 bytes
+        and encapsulation-aware techniques that compensated for ATM and PPPoE didn't
+        exist. An entire masters thesis got written by Jesper Brouer on fixing htb to
+        to work right with ATM framing and the code landed in the kernel in 2005.
+        http://www.adsl-optimizer.dk/
+        <br /><br />
+        Wondershaper was pretty optimal at 800kbit down 220 up, in an age of IW2
+        web pages averaging in size of 70k, coexisting with ssh traffic and voip, in 2002.
+        It didn't scale up then, and doesn't work well at all now, at any bandwidth.
+    </blockquote>
     </p>
 
     <h2>What should be done?</h2>
 
     <p>
         Wondershaper - as wonderful as it was in its day - needs to be replaced.
-        A number of people are working on a replacement. These are now in testing to be sure that
+        "Just patching it" won't work, and will miss out on a lot of the new research
+        into packet queueing and minimizing latency.
+    </p>
+    <p>
+        A number of people are working on a replacement. Their solutions are now in testing to be sure that
         they meet their claims and provide a suitable replacement.
-        (See, for example, Dave T&auml;ht's
-        <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Wondershaper_Must_Die">
-        Wondershaper Must Die editorial.</a>)
     </p>
 
     <h2>Links to the outdated Wondershaper</h2>

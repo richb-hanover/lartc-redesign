@@ -32,7 +32,7 @@
     </p>
 </div> <!-- home -->
 
-    <div id="wondershaper" style="float:right; width:200px;background:#eee;padding:10px;border-radius: 6px;">
+    <div id="wondershaper" style="float:right; width:350px;background:#eee;padding:10px;border-radius: 6px;">
         <h4>Wondershaper</h4>
         <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php">It's getting better!</a>
 
