@@ -25,11 +25,11 @@ function manpage($name,$desc="",$there=0)
 		print("<td><a href='manpages/$name.txt'  target='_blank'>txt</a></td>");
 		print("<td><a href='manpages/$name.html' target='_blank'>html</a></td>");
 		print("<td><a href='manpages/$name.8'    target='_blank'>man</a></td>");
-		print("<td><a href='manpages/$name.pdf'  target='_blank''>pdf</a></td>");
+		print("<td><a href='manpages/$name.pdf'  target='_blank'>pdf</a></td>");
 		print("<td><a href='manpages/$name.ps'   target='_blank'>ps</a>/<a href='manpages/$name.ps.gz'>ps.gz</a></td>");
-		print("<td><a href='manpages/$name.dvi'  target='_blank''>dvi</a></td>");
+		print("<td><a href='manpages/$name.dvi'  target='_blank'>dvi</a></td>");
 	}
-	else print("<td colspan=6 align=center><font color=#999999>forthcoming</font></td>");
+	else print("<td colspan='6' style='text-align:center; color:#bbb;'>forthcoming</td>");
 	print("</tr>");
 }
     manpage("tc","The main command",1);
