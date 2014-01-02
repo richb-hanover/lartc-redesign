@@ -144,9 +144,6 @@ Linux kernel itself.
     </ul>
 </div> <!-- participate -->
 
-<!-- Search Google -->
-</div> <!-- site search -->
-
 </div> <!-- end of content of the document -->
 
 <? readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->
