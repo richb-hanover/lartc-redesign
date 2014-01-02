@@ -1,5 +1,4 @@
-<!-- Read in the header of the every page -->
-<? readfile("./header.html"); ?>
+<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container">     <!-- Content of the document -->
 
@@ -109,13 +108,6 @@
                     ftp://ftp.inr.ac.ru/ip-routing/iproute2-2.4.7-now-ss010824.tar.gz</a>.
                 (<a href=./iproute2-2.4.7-now-ss010824.tar.gz>local mirror</a>)
     </p>
-
-    <div id="siteID">
-        <small>
-            $Id$
-
-        </small>
-    </div> <!-- siteID -->
 
 </div> <!-- end of content of the document -->
 

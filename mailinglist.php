@@ -1,5 +1,4 @@
-<!-- Read in the header of the every page -->
-<? readfile("./header.html"); ?>
+<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container" id="mailinglist">     <!-- Content of the document -->
     <a name="mailinglist"></a>
@@ -39,14 +38,6 @@
             <strong>IRC Archives:</strong> <a href="http://ds9a.nl/lartcbot/">http://ds9a.nl/lartcbot/</a>
         </p>
 
-    <div id="siteID">
-        <small>
-            $Id$
-
-        </small>
-    </div> <!-- siteID -->
-
 </div> <!-- end of content of the document -->
 
-<!-- Read in the footer for the every page -->
-<? readfile("./footer.html"); ?>
+<? readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->

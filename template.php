@@ -1,5 +1,4 @@
-<!-- Read in the header of the every page -->
-<? readfile("./header.html"); ?>
+<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container">     <!-- Content of the document -->
 
@@ -13,5 +12,4 @@
 
 </div> <!-- end of content of the document -->
 
-<!-- Read in the footer for the every page -->
-<? readfile("./footer.html"); ?>
+<? readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->

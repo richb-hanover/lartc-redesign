@@ -1,5 +1,4 @@
-<!-- Read in the header of the every page -->
-<? readfile("./header.html"); ?>
+<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container">     <!-- Content of the document -->
 
@@ -25,14 +24,6 @@
         <dd><p><a href="http://lartc.org/oldnews.html">From 2000, 2001, 2002</a></p></dd>
     </dl>
 
-    <div id="siteID">
-        <small>
-            $Id$
-
-        </small>
-    </div> <!-- siteID -->
-
 </div> <!-- end of content of the document -->
 
-<!-- Read in the footer for the every page -->
-<? readfile("./footer.html"); ?>
+<? readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->
