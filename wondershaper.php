@@ -73,7 +73,7 @@
         Wondershaper Must Die editorial.</a>)
     </p>
 
-    <h2>Links to the old Wondershaper</h2>
+    <h2>Links to the outdated Wondershaper</h2>
 
     <p>
         Wondershaper by <a href=http://ds9a.nl>bert hubert</a> &lt;ahu@ds9a.nl&gt;
@@ -82,9 +82,9 @@
         Linux Advanced Routing &amp; Shaping HOWTO</a><br />
         Requires Linux 2.4 &amp; higher.
         <ul>
-        <li><a href=wondershaper-1.1a.tar.gz>Download version 1.1a</a>, released 16th of
+        <li><a href="wondershaper/wondershaper-1.1a.tar.gz">Download version 1.1a</a>, released 16th of
         April 2002.</li>
-        <li> <a href=wondershaper-1.0.tar.gz>Download version 1.0</a>, released 5th of
+        <li> <a href="wondershaper/wondershaper-1.0.tar.gz">Download version 1.0</a>, released 5th of
         March 2002.</li>
         </ul>
 
