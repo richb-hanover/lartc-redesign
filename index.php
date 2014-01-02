@@ -1,9 +1,7 @@
 <? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
-
 <div class="container">     <!-- Content of the document -->
 
-    <a name="home"></a>
 <div id="home">
 <H1>Linux Advanced Routing &amp; Traffic Control</H1>
     <p>
@@ -45,7 +43,6 @@
         </p>
     </div> <!-- wondershaper -->
 
-    <a name="howto"></a>
     <div id="download">
     <h2>The HOWTO</h2>
     <p>
@@ -80,9 +77,9 @@
     </div> <!-- HOWTO -->
 
     <div id="translations">
-        <p>
-        <h2>Translations:</h2>
 
+        <h2>Translations:</h2>
+        <p>
         <a href=LARTC-zh_CN.GB2312.pdf>[ Chinese (zh_CN.GB2312) ] </a>
         <br><a href=http://www.linux-france.org/prj/inetdoc/guides/Advanced-routing-Howto/>
         [ French ]</a> (fixed)
@@ -108,7 +105,6 @@
         </p>
     </div> <!-- translations -->
 
-<a name="participate"></a>
 <div id="participate">
 <H2>Participate in the project</H2>
 This HOWTO is intended to be very much a <a
@@ -127,7 +123,7 @@ $ cd lartc.git
 <i>If you want to update your local copy, run</i>
 $ git pull
 </pre>
-
+<p>
 If you made changes and want to contribute them, run 'git diff',
 and mail the output to <a href=mailto:lartc@vger.kernel.org>lartc@vger.kernel.org</a>, we
 can then integrate it easily. Thanks! Please make sure that you edit the
@@ -137,7 +133,6 @@ The idea is that this HOWTO will be a cooperative effort, much like the
 Linux kernel itself.
 </p>
 
-    <a name="jobs"></a>
     <H2>Jobs list</H2>
     Like the Linux kernel, we have a list of tasks for fixing this site.
     If you have any expertise in any of these areas, please pitch in.
@@ -147,22 +142,7 @@ Linux kernel itself.
         <li>IPsec</li>
         <li>Multipath routing
     </ul>
-
 </div> <!-- participate -->
-
-
-<div id="sitesearch">
-<!-- Search Google -->
-
-    <FORM method=GET action="http://www.google.com/search">
-        <TABLE bgcolor="#FFFFFF"><tr><td>
-            <A HREF="http://www.google.com/">
-                <IMG SRC="http://www.google.com/logos/Logo_40wht.gif" border="0"
-                     ALT="Google" align="absmiddle"></A>
-            <INPUT TYPE=text name=q size=31 maxlength=255 value="">
-            <INPUT type=submit name=sa VALUE="Google Search">
-        </td></tr></TABLE>
-    </FORM>
 
 <!-- Search Google -->
 </div> <!-- site search -->
