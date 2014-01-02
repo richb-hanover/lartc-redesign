@@ -7,6 +7,11 @@
 <div id="home">
 <H1>Linux Advanced Routing &amp; Traffic Control</H1>
     <p>
+        <em>Note: This site contains the contents of the original LARTC site
+            (<a href="http://lartc.org">http://lartc.org</a>), reformatted to use Bootstrap3
+            CSS. It also has a number of broken links. We'll fix them over time.</em>
+    </p>
+    <p>
         Linux has very advanced routing, filtering and traffic shaping options.
         This site documents how to configure and use these features, as well
         as a whole body of information about Linux networking.
@@ -28,6 +33,7 @@
         <a href="mailto:lartc@vger.kernel.org">lartc@vger.kernel.org</a> and
         I'll try to integrate them in a timely manner.-->
     <p>
+
 
     </p>
 </div> <!-- home -->
