@@ -1,6 +1,6 @@
 # $Id$ 
 
-HOWTODOCS := howto/ html.tar.gz lartc.txt lartc.dvi lartc.pdf lartc.pdf.gz lartc.ps lartc.ps.gz lartc.html
+HOWTODOCS := howto/ html.tar.gz lartc.txt lartc.dvi lartc.pdf lartc.pdf.gz lartc.ps lartc.ps.gz lartc.html lartc.epub
 
 all: $(HOWTODOCS) contriblist changelog.txt
 
@@ -30,6 +30,9 @@ html.tar.gz: howto/
 
 %.dvi: %.db
 	docbook2dvi $<
+
+%.epub: %.db
+	xmlto epub $<
 
 lartc.html: lartc.db
 	docbook2html --nochunks lartc.db
