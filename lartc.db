@@ -1,8 +1,9 @@
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V4.1//EN">
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V4.1//EN"
+                   "http://www.oasis-open.org/docbook/xml/4.1/docbookx.dtd" >
 <!-- $Id$ -->
 <Book id="lartc">
-<?dbhtml banner-text="Made possible by PowerDNS">
-<?dbhtml banner-href="http://www.powerdns.com">
+<!-- ?dbhtml banner-text="made possible by powerdns" /-->
+<!-- ?dbhtml banner-href="http://www.powerdns.com" /-->
 
   <bookinfo>
     <Title>Linux Advanced Routing &amp; Traffic Control HOWTO</Title>
@@ -150,7 +151,7 @@ Welcome, gentle reader.
 
 <Para>
 Before losing your way in this HOWTO, if all you want to do is simple
-traffic shaping, skip everything and head to the <citetitle><xref linkend="lartc.other"></citetitle> chapter, and read about CBQ.init.
+traffic shaping, skip everything and head to the <citetitle><xref linkend="lartc.other" /></citetitle> chapter, and read about CBQ.init.
 </Para>
 
 <Sect1 id="lartc.intro.disclaimer">
@@ -1954,7 +1955,7 @@ Associations. We leave their negotiation to the IKE daemon.
 setup secure communications, but this time with help from racoon. For
 simplicity this configuration will be using pre-shared keys, the
 dreaded 'shared secrets'. X.509 certificates are discussed in a separate
-section, see <xref linkend="lartc.ipsec.x509">.
+section, see <xref linkend="lartc.ipsec.x509" />.
 </para>
 <para> We're
 going to stick to almost the default configuration, identical on both hosts:
@@ -2055,7 +2056,7 @@ will start negotiating:
 12:18:44: INFO: isakmp.c:1689:isakmp_post_acquire(): IPsec-SA
   request for 10.0.0.11 queued due to no phase1 found.
 12:18:44: INFO: isakmp.c:794:isakmp_ph1begin_i(): initiate new
-  phase 1 negotiation: 10.0.0.216[500]<=>10.0.0.11[500]
+  phase 1 negotiation: 10.0.0.216[500]&lt;=&gt;10.0.0.11[500]
 12:18:44: INFO: isakmp.c:799:isakmp_ph1begin_i(): begin Aggressive mode.
 12:18:44: INFO: vendorid.c:128:check_vendorid(): received Vendor ID: 
   KAME/racoon
@@ -2064,7 +2065,7 @@ will start negotiating:
 12:18:44: INFO: isakmp.c:2417:log_ph1established(): ISAKMP-SA
   established 10.0.0.216[500]-10.0.0.11[500] spi:044d25dede78a4d1:ff01e5b4804f0680
 12:18:45: INFO: isakmp.c:938:isakmp_ph2begin_i(): initiate new phase 2 
-  negotiation: 10.0.0.216[0]<=>10.0.0.11[0]
+  negotiation: 10.0.0.216[0]&lt;=&gt;10.0.0.11[0]
 12:18:45: INFO: pfkey.c:1106:pk_recvupdate(): IPsec-SA established: 
   ESP/Transport 10.0.0.11->10.0.0.216 spi=44556347(0x2a7e03b)
 12:18:45: INFO: pfkey.c:1318:pk_recvadd(): IPsec-SA established:
@@ -2161,7 +2162,7 @@ Country Name (2 letter code) [AU]:NL
 State or Province Name (full name) [Some-State]:.
 Locality Name (eg, city) []:Delft
 Organization Name (eg, company) [Internet Widgits Pty Ltd]:Linux Advanced
-Routing & Traffic Control
+Routing &amp; Traffic Control
 Organizational Unit Name (eg, section) []:laptop
 Common Name (eg, YOUR name) []:bert hubert
 Email Address []:ahu@ds9a.nl
@@ -2290,7 +2291,7 @@ remote.
 </para>
 <para>
 	Verify that a Security Policy is in place (execute the 'spdadd' lines in
-<xref linkend="lartc.ipsec.automatic.keying.example">). Then launch racoon and everything should
+<xref linkend="lartc.ipsec.automatic.keying.example" />). Then launch racoon and everything should
 work.
 </para>
 	</sect3>
@@ -3178,7 +3179,7 @@ reordering, slowing or dropping packets.
 <Para>
 The following tips may help in choosing which queue to use. It mentions some
 qdiscs described in the
-<citetitle><xref linkend="lartc.adv-qdisc"></citetitle> chapter.
+<citetitle><xref linkend="lartc.adv-qdisc" /></citetitle> chapter.
 </Para>
 
 <ItemizedList>
@@ -5103,8 +5104,8 @@ IP: use netfilter MARK value as routing key (CONFIG_IP_ROUTE_FWMARK) [Y/n/?]
 </Para>
 
 <Para>
-See also the <xref linkend="lartc.cookbook.squid"> in the
-<citetitle><xref linkend="lartc.cookbook"></citetitle>.
+See also the <xref linkend="lartc.cookbook.squid" /> in the
+<citetitle><xref linkend="lartc.cookbook" /></citetitle>.
 </Para>
 
 </chapter>
@@ -6178,7 +6179,7 @@ the kernel to log them to your syslog.
 </Para>
 
 <Para>
-FIXME: is setting the conf/&lcub;default,all&rcub;/* files enough? - martijn
+FIXME: is setting the conf/&#123;default,all&#125;/* files enough? - martijn
 </Para>
 
 </Sect1>
@@ -6389,7 +6390,7 @@ default, 1024 to 4999.
 Set this if you want to disable Path MTU discovery - a technique to
 determine the largest Maximum Transfer Unit possible on your path. See also
 the section on Path MTU discovery in the 
-<citetitle><xref linkend="lartc.cookbook"></citetitle> chapter.
+<citetitle><xref linkend="lartc.cookbook" /></citetitle> chapter.
 </Para></ListItem>
 </VarListEntry>
 <VarListEntry>
@@ -6490,7 +6491,7 @@ DoS attacks, you _must_ not rely on this or lower the limit artificially,
 but rather increase it (probably, after increasing installed memory), if
 network conditions require more than default value, and tune network
 services to linger and kill such states more aggressively. Let me remind you
-again: each orphan eats up to &nbsp;64K of unswappable memory.
+again: each orphan eats up to &#160;64K of unswappable memory.
 </Para></ListItem>
 </VarListEntry>
 <VarListEntry>
@@ -6498,7 +6499,7 @@ again: each orphan eats up to &nbsp;64K of unswappable memory.
 <ListItem>
 <Para>
 How may times to retry before killing TCP connection, closed by our side.
-Default value 7 corresponds to &nbsp;50sec-16min depending on RTO. If your machine
+Default value 7 corresponds to &#160;50sec-16min depending on RTO. If your machine
 is a loaded WEB server, you should think about lowering this value, such
 sockets may consume significant resources. Cf. tcp_max_orphans.
 </Para></ListItem>
@@ -6544,7 +6545,7 @@ certain TCP stacks.
 How many times to retry before deciding that something is wrong
 and it is necessary to report this suspicion to network layer.
 Minimal RFC value is 3, it is default, which corresponds
-to &nbsp;3sec-8min depending on RTO.
+to &#160;3sec-8min depending on RTO.
 </Para></ListItem>
 </VarListEntry>
 <VarListEntry>
@@ -6557,7 +6558,7 @@ URL="http://www.ietf.org/rfc/rfc1122.txt"
 >RFC 1122</ULink
 >
 says that the limit should be longer than 100 sec.
-It is too small number. Default value 15 corresponds to &nbsp;13-30min
+It is too small number. Default value 15 corresponds to &#160;13-30min
 depending on RTO.
 </Para></ListItem>
 </VarListEntry>
@@ -6696,7 +6697,7 @@ Enable or disable IP forwarding on this interface.
 <ListItem>
 <Para>
 See the section on 
-<citetitle><xref linkend="lartc.kernel.rpf"></citetitle>.
+<citetitle><xref linkend="lartc.kernel.rpf" /></citetitle>.
 </Para></ListItem>
 </VarListEntry>
 <VarListEntry>
@@ -6722,7 +6723,7 @@ operates on ARP queries!
 <ListItem>
 <Para>
 See the section on 
-<citetitle><xref linkend="lartc.kernel.rpf"></citetitle>.
+<citetitle><xref linkend="lartc.kernel.rpf" /></citetitle>.
 </Para></ListItem>
 </VarListEntry>
 <VarListEntry>
@@ -7262,7 +7263,7 @@ What do these parameters mean?
 <ListItem>
 
 <Para>
-<Emphasis remap="bf">indices</Emphasis>: size of table of (mask,value) pairs. Maximum value is 2&circ;n, where n&gt;=0.
+<emphasis remap="bf">indices</emphasis>: size of table of (mask,value) pairs. Maximum value is 2&#710;n, where n&gt;=0.
 </Para>
 </ListItem>
 <ListItem>
@@ -7400,11 +7401,11 @@ tc filter add dev eth0 parent 1:0 protocol ip prio 1 tcindex <Emphasis remap="bf
 
 tc qdisc add dev eth0 parent 1:0 handle 2:0 cbq bandwidth 10Mbit cell 8 avpkt 1000 mpu 64
 
-&num; EF traffic class
+# EF traffic class
 
 tc class add dev eth0 parent 2:0 classid 2:1 cbq bandwidth 10Mbit rate 1500Kbit avpkt 1000 prio 1 bounded isolated allot 1514 weight 1 maxburst 10
 
-&num; Packet fifo qdisc for EF traffic
+# Packet fifo qdisc for EF traffic
 
 tc qdisc add dev eth0 parent 2:1 pfifo limit 5
 
@@ -8980,11 +8981,11 @@ If the last two lines give an error, update your tc tool to a newer version!
       </para>
       <para>
 	The second line creates a 512kbit class with some reasonable defaults. For details, see the cbq manpages and
-	<xref linkend="lartc.qdisc">.
+        <xref linkend="lartc.qdisc" />.
       </para>
       <para>
 	The last line tells which traffic should go to the shaped class. Traffic not matched by this rule is NOT shaped. To make more 
-	complicated matches (subnets, source ports, destination ports), see <xref linkend="lartc.filtering.simple">.
+        complicated matches (subnets, source ports, destination ports), see <xref linkend="lartc.filtering.simple" />.
       </para>
       <para>
 	If you changed anything and want to reload the script, execute 'tc qdisc del dev $DEV root' to clean up your existing
@@ -8992,7 +8993,7 @@ If the last two lines give an error, update your tc tool to a newer version!
       </para>
       <para>
 	The script can further be improved by adding a last optional line 'tc qdisc add dev $DEV parent 1:1 sfq perturb 10'. See 
-	<xref linkend="lartc.sfq"> for details on what this does.
+        <xref linkend="lartc.sfq" /> for details on what this does.
       </para>
     </sect1>
         
@@ -10035,9 +10036,9 @@ be found <ULink
 URL="ftp://ftp.netlab.ohio-state.edu/pub/jain/courses/cis788-97/virtual_lans/index.htm"
 >here</ULink
 >. With this implementation, you can have your Linux box talk
-VLANs with machines like Cisco Catalyst, 3Com: &lcub;Corebuilder, Netbuilder II,
-SuperStack II switch 630&rcub;, Extreme Ntwks Summit 48, Foundry: &lcub;ServerIronXL,
-FastIron&rcub;.
+VLANs with machines like Cisco Catalyst, 3Com: &#123;Corebuilder, Netbuilder II,
+SuperStack II switch 630&#125;, Extreme Ntwks Summit 48, Foundry: &#123;ServerIronXL,
+FastIron&#125;.
 </Para>
 
 <Para>
@@ -10336,7 +10337,7 @@ URL="http://www.cisco.com/univercd/cc/td/doc/product/software/ios111/cc111/car.h
 ></Term>
 <ListItem>
 <Para>
-<Anchor id="CAR">
+<anchor id="CAR" />
 From the helpful folks of Cisco who have the laudable habit of putting
 their documentation online. Cisco syntax is different but the concepts are
 the same, except that we can do more and do it without routers the price of
