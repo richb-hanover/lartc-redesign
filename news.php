@@ -5,8 +5,9 @@
     <div><a name="news"></a></div>
     <h2>News</H2>
     <dl>
-        <dt>2014-01-01</dt>
-        <dd><p>lartc.org has been converted to use Bootstrap3 CSS</p></dd>
+        <dt>2014-01-06</dt>
+        <dd><p>lartc.org has been converted to use Bootstrap3 CSS;
+            man pages updated to use versions from Ubuntu 13.10; </p></dd>
 
         <dt>2012-05-20</dt>
         <dd><p>lartc.org is now reachable via IPv6!</p></dd>
