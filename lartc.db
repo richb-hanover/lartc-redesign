@@ -1,7 +1,6 @@
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V4.1//EN"
-                   "http://www.oasis-open.org/docbook/xml/4.1/docbookx.dtd" >
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V4.1//EN" >
 <!-- $Id$ -->
-<Book id="lartc">
+<book id="lartc">
 <!-- ?dbhtml banner-text="made possible by powerdns" /-->
 <!-- ?dbhtml banner-href="http://www.powerdns.com" /-->
 
@@ -10405,7 +10404,7 @@ helping.
 
 <para>
 
-<itemizedList spacing="compact">
+<itemizedlist spacing="compact">
 <listitem>
 
    <para>
@@ -10868,14 +10867,14 @@ Patrik &lt;ph@kurd.nu&gt;
 
 <listitem>
 <para>
-P&aacute;l Osgy&aacute;ny &lt;oplab%westel900.net&gt;
+P&#225;l Osgy&#225;ny &lt;oplab%westel900.net&gt;
 </para>
 </listitem>
 
 <listitem>
 
 <para>
-Lutz Pre&szlig;ler &lt;Lutz.Pressler%SerNet.DE&gt;
+Lutz Pre&#223;ler &lt;Lutz.Pressler%SerNet.DE&gt;
 </para>
 </listitem>
 <listitem>
@@ -10926,7 +10925,7 @@ Jamal Hadi Salim &lt;hadi%cyberus.ca&gt;
 
 <listitem>
 <para>
-Ren&eacute; Serral &lt;rserral%ac.upc.es&gt; 
+Ren&#233; Serral &lt;rserral%ac.upc.es&gt; 
 </para>
 </listitem>
 
