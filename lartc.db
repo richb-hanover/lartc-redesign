@@ -201,7 +201,7 @@ Here are some other references which might help teach you more:
 <variablelist>
 <varlistentry>
   <term>
-    <ulink URL="http://netfilter.samba.org/unreliable-guides/networking-concepts-HOWTO/index.html">
+    <ulink url="http://netfilter.samba.org/unreliable-guides/networking-concepts-HOWTO/index.html">
       Rusty Russell's networking-concepts-HOWTO</ulink>
   </term>
   <listitem>
@@ -217,7 +217,7 @@ Here are some other references which might help teach you more:
     that's already configured if you are able to connect to the Internet. 
     Should be located in <filename>/usr/doc/HOWTO/NET3-4-HOWTO.txt</filename>
  but can be also be found 
-    <ulink URL="http://www.linuxports.com/howto/networking">online</ulink>.
+    <ulink url="http://www.linuxports.com/howto/networking">online</ulink>.
     </para>
   </listitem>
 </varlistentry>
@@ -322,7 +322,7 @@ are not very common.
 
 <para>
 The canonical location for the HOWTO is 
-<ulink URL="http://lartc.org/">here</ulink>.
+<ulink url="http://lartc.org/">here</ulink>.
 </para>
 
 <para>
@@ -376,7 +376,7 @@ The authors receive an increasing amount of mail about this HOWTO. Because
 of the clear interest of the community, it has been decided to start a
 mailinglist where people can talk to each other about Advanced Routing and
 Traffic Control. You can subscribe to the list
-<ulink URL="http://mailman.ds9a.nl/mailman/listinfo/lartc">here</ulink>.
+<ulink url="http://mailman.ds9a.nl/mailman/listinfo/lartc">here</ulink>.
 </para>
 
 <para>
@@ -404,7 +404,7 @@ well by Rusty's HOWTOs, available here:
 
 <itemizedlist>
 <listitem>
-  <para><ulink URL="http://netfilter.samba.org/unreliable-guides/">
+  <para><ulink url="http://netfilter.samba.org/unreliable-guides/">
     Rusty's Remarkably Unreliable Guides</ulink>
   </para>
 </listitem>
@@ -489,7 +489,7 @@ found at <filename>ftp://ftp.inr.ac.ru/ip-routing/iproute2-2.2.4-now-ss??????.ta
 
 <para>
 You can also try 
-<ulink URL="ftp://ftp.inr.ac.ru/ip-routing/iproute2-current.tar.gz">here</ulink> 
+<ulink url="ftp://ftp.inr.ac.ru/ip-routing/iproute2-current.tar.gz">here</ulink> 
 for the latest version.
 </para>
 
@@ -687,7 +687,7 @@ Iface
 
 <para>
 ARP is the Address Resolution Protocol as described in
-<ulink URL="http://www.faqs.org/rfcs/rfc826.html">RFC 826</ulink>.
+<ulink url="http://www.faqs.org/rfcs/rfc826.html">RFC 826</ulink>.
 ARP is used by a networked machine to resolve the hardware location/address of
 another machine on the same
 local network.  Machines on the Internet are generally known by their names
@@ -1643,7 +1643,7 @@ web interface. Search for "ipv6 tunnel broker" on your favourite search engine.
       There are two kinds of IPSEC available for Linux these days. For 2.2
       and 2.4, there is FreeS/WAN, which was the first major implementation. They
 
-      have <ulink URL="http://www.freeswan.org/">an official site</ulink> and <ulink url="http://www.freeswan.ca">
+      have <ulink url="http://www.freeswan.org/">an official site</ulink> and <ulink url="http://www.freeswan.ca">
 	an unofficial one</ulink> that is actually maintained. FreeS/WAN has traditionally not been merged with
       the mainline kernel for a number of reasons. Most often mentioned are 'political' issues with Americans
       working on crypto tainting its exportability. Furthermore, it does not integrate too well with the Linux kernel,
@@ -4408,7 +4408,7 @@ HTB works just like CBQ but does not resort to idle time calculations to
 shape. Instead, it is a classful Token Bucket Filter - hence the name. It
 has only a few parameters, which are well documented on his 
 <ulink
-URL="http://luxik.cdi.cz/~devik/qos/htb/"
+url="http://luxik.cdi.cz/~devik/qos/htb/"
 >site</ulink
 >.
 </para>
@@ -4829,7 +4829,7 @@ by the filter table won't occupy bandwidth.
 <para>
 The patches and some more information can be found at the
 <ulink
-URL="http://luxik.cdi.cz/~patrick/imq/"
+url="http://luxik.cdi.cz/~patrick/imq/"
 >imq site</ulink>.
 </para>
 
@@ -4981,7 +4981,7 @@ However, for lots of applications, link load balancing is a great idea.
 William Stearns has used an advanced tunneling setup to achieve good use of
 multiple, unrelated, internet connections together. It can be found on
 <ulink
-URL="http://www.stearns.org/tunnel/">his tunneling page</ulink>.
+url="http://www.stearns.org/tunnel/">his tunneling page</ulink>.
 </para>
 <para>
 The HOWTO may feature more about this in the future.
@@ -4995,11 +4995,11 @@ The HOWTO may feature more about this in the future.
 <para>
 So far we've seen how iproute works, and netfilter was mentioned a few
 times. This would be a good time to browse through <ulink
-URL="http://netfilter.samba.org/unreliable-guides/"
+url="http://netfilter.samba.org/unreliable-guides/"
 >Rusty's Remarkably Unreliable Guides</ulink
 >. Netfilter itself
 can be found <ulink
-URL="http://netfilter.filewatcher.org/"
+url="http://netfilter.filewatcher.org/"
 >here</ulink
 >.
 </para>
@@ -5081,7 +5081,7 @@ Needless to say, this also works fine on a host that's doing NAT
 IMPORTANT: We received a report that MASQ and SNAT at least collide
 with marking packets. Rusty Russell explains it in
 <ulink
-URL="http://lists.samba.org/pipermail/netfilter/2000-November/006089.html"
+url="http://lists.samba.org/pipermail/netfilter/2000-November/006089.html"
 >this posting</ulink
 >. Turn off the reverse path filter to make it work
 properly.
@@ -5151,7 +5151,7 @@ Bases the decision on which route the packet will be routed by
 <listitem>
 <para>
 Routes packets based on <ulink
-URL="http://www.isi.edu/div7/rsvp/overview.html"
+url="http://www.isi.edu/div7/rsvp/overview.html"
 >RSVP </ulink
 >. Only useful
 on networks you control - the Internet does not respect RSVP.
@@ -6553,7 +6553,7 @@ to &#160;3sec-8min depending on RTO.
 <para>
 How may times to retry before killing alive TCP connection.
 <ulink
-URL="http://www.ietf.org/rfc/rfc1122.txt"
+url="http://www.ietf.org/rfc/rfc1122.txt"
 >RFC 1122</ulink
 >
 says that the limit should be longer than 100 sec.
@@ -6908,7 +6908,7 @@ you may want to lower it if you want to have a speedy fail over.
 
 <para>
 Also see <ulink
-URL="http://mailman.ds9a.nl/pipermail/lartc/2002q1/002667.html"
+url="http://mailman.ds9a.nl/pipermail/lartc/2002q1/002667.html"
 >this post</ulink
 > by Ard van Breemen.
 </para></listitem>
@@ -7126,7 +7126,7 @@ understand the article mentioned.
 <itemizedlist>
 <listitem>
   <para>
-    <ulink URL="ftp://icaftp.epfl.ch/pub/linux/diffserv/misc/dsid-01.txt.gz">
+    <ulink url="ftp://icaftp.epfl.ch/pub/linux/diffserv/misc/dsid-01.txt.gz">
       Draft-almesberger-wajhak-diffserv-linux-01.txt</ulink>.
   </para>
 </listitem>
@@ -7136,9 +7136,9 @@ understand the article mentioned.
 </listitem>
 <listitem>
   <para>
-    <ulink URL="http://www.qosforum.com/white-papers/qosprot_v3.pdf">
+    <ulink url="http://www.qosforum.com/white-papers/qosprot_v3.pdf">
       White Paper-QoS protocols and architectures</ulink> and
-    <ulink URL="http://www.qosforum.com/docs/faq">
+    <ulink url="http://www.qosforum.com/docs/faq">
       IP QoS Frequently Asked Questions</ulink> both by 
     <citetitle>Quality of Service Forum</citetitle>.
   </para>
@@ -7155,9 +7155,9 @@ This chapter was written by Esteve Camps &lt;esteve@hades.udg.es&gt;.
 <para>
 First of all, it would be a great idea for you to read RFCs
 written about this (RFC2474, RFC2475, RFC2597 and RFC2598) at 
-<ulink URL="http://www.ietf.org/html.charters/diffserv-charter.html">
+<ulink url="http://www.ietf.org/html.charters/diffserv-charter.html">
   IETF DiffServ working Group web site</ulink> and
-<ulink URL="http://diffserv.sf.net/">
+<ulink url="http://diffserv.sf.net/">
   Werner Almesberger web site</ulink>
 (he wrote the code to support Differentiated Services on Linux).
 </para>
@@ -7655,7 +7655,7 @@ works OK on high speed Internet links with a 1500byte MTU.
 
 <para>
 Read <ulink
-URL="http://www.aciri.org/floyd/papers/red/red.html"
+url="http://www.aciri.org/floyd/papers/red/red.html"
 >the paper on RED queueing</ulink
 > by Sally Floyd and Van Jacobson for technical
 information.
@@ -7670,7 +7670,7 @@ information.
 Not a lot is known about GRED. It looks like GRED with several internal
 queues, whereby the internal queue is chosen based on the Diffserv tcindex
 field. According to a slide found
-<ulink URL="http://www.davin.ottawa.on.ca/ols/img22.htm">here</ulink>,
+<ulink url="http://www.davin.ottawa.on.ca/ols/img22.htm">here</ulink>,
 it contains the capabilities of Cisco's 'Distributed Weighted RED', as well 
 as Dave Clark's RIO.
 </para>
@@ -7696,7 +7696,7 @@ ATM network theory.
 
 <para>
 For more information, see the <ulink
-URL="http://linux-atm.sourceforge.net/"
+url="http://linux-atm.sourceforge.net/"
 >ATM on Linux homepage</ulink
 >. 
 </para>
@@ -7708,7 +7708,7 @@ URL="http://linux-atm.sourceforge.net/"
 
 <para>
 This qdisc is not included in the standard kernels but can be downloaded from 
-<ulink URL="http://wipl-wrr.dkik.dk/wrr/">here</ulink>. 
+<ulink url="http://wipl-wrr.dkik.dk/wrr/">here</ulink>. 
 Currently the qdisc is only tested with Linux 2.2 kernels but it will 
 probably work with 2.4/2.5 kernels too.
 </para>
@@ -8235,7 +8235,7 @@ silom# iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-
       </para>
       <para>
 	For more information on setting Squid server please refer to Squid FAQ page on <ulink
-	  URL="http://squid.nlanr.net">http://squid.nlanr.net</ulink>).
+	  url="http://squid.nlanr.net">http://squid.nlanr.net</ulink>).
       </para>
       <para>
 	Make sure ip forwarding is enabled on this server and the default gateway for this server is donmuang router (NOT naret).
@@ -9291,7 +9291,7 @@ change anything' is doing the right thing.
 
 <para>
 The Linux 2.4/2.5 bridge is documented on
-<ulink URL=" http://bridge.sourceforge.net/">this page</ulink>.
+<ulink url=" http://bridge.sourceforge.net/">this page</ulink>.
 </para>
 
 <sect1 id="lartc.bridging.iptables">
@@ -9520,7 +9520,7 @@ Overview:
 <para>
 Cisco Systems
 <ulink
-URL="http://www.cisco.com/univercd/cc/td/doc/cisintwk/idg4/nd2003.htm"
+url="http://www.cisco.com/univercd/cc/td/doc/cisintwk/idg4/nd2003.htm"
 >Designing large-scale IP Internetworks</ulink
 >
 </para>
@@ -9560,7 +9560,7 @@ Cisco Systems
 
 <para>
 <ulink
-URL="http://www.cisco.com/univercd/cc/td/doc/cisintwk/ics/icsbgp4.htm"
+url="http://www.cisco.com/univercd/cc/td/doc/cisintwk/ics/icsbgp4.htm"
 >Using the Border Gateway Protocol for interdomain routing</ulink
 >
 </para>
@@ -10024,7 +10024,7 @@ own, some are documented very well of themselves, and don't need more HOWTO.
 
 <varlistentry>
 <term>802.1Q VLAN Implementation for Linux <ulink
-URL="http://scry.wanfear.com/~greear/vlan.html"
+url="http://scry.wanfear.com/~greear/vlan.html"
 >(site)</ulink
 ></term>
 <listitem>
@@ -10032,7 +10032,7 @@ URL="http://scry.wanfear.com/~greear/vlan.html"
 VLANs are a very cool way to segregate your
 networks in a more virtual than physical way. Good information on VLANs can
 be found <ulink
-URL="ftp://ftp.netlab.ohio-state.edu/pub/jain/courses/cis788-97/virtual_lans/index.htm"
+url="ftp://ftp.netlab.ohio-state.edu/pub/jain/courses/cis788-97/virtual_lans/index.htm"
 >here</ulink
 >. With this implementation, you can have your Linux box talk
 VLANs with machines like Cisco Catalyst, 3Com: &#123;Corebuilder, Netbuilder II,
@@ -10042,7 +10042,7 @@ FastIron&#125;.
 
 <para>
 A great HOWTO about VLANs can be found <ulink
-URL="http://scry.wanfear.com/~greear/vlan/cisco_howto.html"
+url="http://scry.wanfear.com/~greear/vlan/cisco_howto.html"
 >here</ulink
 >.
 </para>
@@ -10053,7 +10053,7 @@ Update: has been included in the kernel as of 2.4.14 (perhaps 13).
 </varlistentry>
 <varlistentry>
 <term>Alternate 802.1Q VLAN Implementation for Linux <ulink
-URL="http://vlan.sourceforge.net "
+url="http://vlan.sourceforge.net "
 >(site)</ulink
 ></term>
 <listitem>
@@ -10065,7 +10065,7 @@ style, resulting in a cleaner overall design.
 </varlistentry>
 <varlistentry>
 <term>Linux Virtual Server <ulink
-URL="http://www.LinuxVirtualServer.org/"
+url="http://www.LinuxVirtualServer.org/"
 >(site)</ulink
 ></term>
 <listitem>
@@ -10098,7 +10098,7 @@ send patches.
 </varlistentry>
 <varlistentry>
 <term>CBQ.init <ulink
-URL="ftp://ftp.equinox.gu.net/pub/linux/cbq/"
+url="ftp://ftp.equinox.gu.net/pub/linux/cbq/"
 >(site)</ulink
 ></term>
 <listitem>
@@ -10135,7 +10135,7 @@ embedded in the script, which explains why you can't find a README.
 </varlistentry>
 <varlistentry>
 <term>Chronox easy shaping scripts <ulink
-URL="http://www.chronox.de"
+url="http://www.chronox.de"
 >(site)</ulink
 ></term>
 <listitem>
@@ -10167,8 +10167,8 @@ which are then shaped.
 <varlistentry>
 <term>Virtual Router
 Redundancy Protocol implementation (
-<ulink URL="http://off.net/~jme/vrrpd/">site1</ulink>,
-<ulink URL="http://www.imagestream.com/VRRP.html">site2</ulink>
+<ulink url="http://off.net/~jme/vrrpd/">site1</ulink>,
+<ulink url="http://www.imagestream.com/VRRP.html">site2</ulink>
 )</term>
 <listitem>
 <para>
@@ -10234,7 +10234,7 @@ latency.
 
 <varlistentry>
 <term>tc-config
-<ulink URL="http://slava.local.nsys.by/projects/tc_config/">(site)</ulink>
+<ulink url="http://slava.local.nsys.by/projects/tc_config/">(site)</ulink>
 </term>
 <listitem>
 <para>
@@ -10263,7 +10263,7 @@ FIXME: Write
 
 <varlistentry>
 <term><ulink
-URL="http://snafu.freedom.org/linux2.2/iproute-notes.html"
+url="http://snafu.freedom.org/linux2.2/iproute-notes.html"
 >http://snafu.freedom.org/linux2.2/iproute-notes.html</ulink
 ></term>
 <listitem>
@@ -10273,7 +10273,7 @@ Contains lots of technical information, comments from the kernel
 </varlistentry>
 <varlistentry>
 <term><ulink
-URL="http://www.davin.ottawa.on.ca/ols/"
+url="http://www.davin.ottawa.on.ca/ols/"
 >http://www.davin.ottawa.on.ca/ols/</ulink
 ></term>
 <listitem>
@@ -10283,7 +10283,7 @@ Slides by Jamal Hadi Salim, one of the authors of Linux traffic control
 </varlistentry>
 <varlistentry>
 <term><ulink
-URL="http://defiant.coinet.com/iproute2/ip-cref/"
+url="http://defiant.coinet.com/iproute2/ip-cref/"
 >http://defiant.coinet.com/iproute2/ip-cref/</ulink
 ></term>
 <listitem>
@@ -10294,7 +10294,7 @@ great detail
 </varlistentry>
 <varlistentry>
 <term><ulink
-URL="http://www.aciri.org/floyd/cbq.html"
+url="http://www.aciri.org/floyd/cbq.html"
 >http://www.aciri.org/floyd/cbq.html</ulink
 ></term>
 <listitem>
@@ -10310,7 +10310,7 @@ Very technical stuff, but good reading for those so inclined.
 <listitem>
 <para>
 This <ulink
-URL="ftp://icaftp.epfl.ch/pub/linux/diffserv/misc/dsid-01.txt.gz"
+url="ftp://icaftp.epfl.ch/pub/linux/diffserv/misc/dsid-01.txt.gz"
 >document</ulink
 > by Werner Almesberger, Jamal Hadi Salim and Alexey
 Kuznetsov describes DiffServ facilities in the Linux kernel, amongst which
@@ -10319,7 +10319,7 @@ are TBF, GRED, the DSMARK qdisc and the tcindex classifier.
 </varlistentry>
 <varlistentry>
 <term><ulink
-URL="http://ceti.pl/~kravietz/cbq/NET4_tc.html"
+url="http://ceti.pl/~kravietz/cbq/NET4_tc.html"
 >http://ceti.pl/~kravietz/cbq/NET4_tc.html</ulink
 ></term>
 <listitem>
@@ -10331,7 +10331,7 @@ cooperating with us and may soon author sections of this HOWTO.
 </varlistentry>
 <varlistentry>
 <term><ulink
-URL="http://www.cisco.com/univercd/cc/td/doc/product/software/ios111/cc111/car.htm"
+url="http://www.cisco.com/univercd/cc/td/doc/product/software/ios111/cc111/car.htm"
 >IOS Committed Access Rate</ulink
 ></term>
 <listitem>
@@ -10345,7 +10345,7 @@ cars :-)
 </varlistentry>
 <varlistentry>
 <term>Docum experimental site<ulink
-URL="http://www.docum.org"
+url="http://www.docum.org"
 >(site)</ulink
 ></term>
 <listitem>
