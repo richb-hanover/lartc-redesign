@@ -7,7 +7,7 @@
     <p>
         <em>Note: This site contains the contents of the original LARTC site
             (<a href="http://lartc.org">http://lartc.org</a>), reformatted to use Bootstrap3
-            CSS. It also has a number of broken links. We'll fix them over time.</em>
+            CSS. It still has a number of broken links. We'll fix them over time.</em>
     </p>
     <p>
         Linux has very advanced routing, filtering and traffic shaping options.
@@ -67,6 +67,7 @@
             <a href="howto/"        target="_blank">HTML</A>,
             <a href="lartc.html"    target="_blank">One-big-page HTML</A>,
             <a href="html.tar.gz"   target="_blank">HTML tarfile</A></li>
+        <li><a href="lartc.epub"    target="_blank">ePub</a></li>
         <li><a href="lartc.ps"      target="_blank">ps</A>, <a href="lartc.ps.gz">ps.gz</A></li>
         <li><a href="lartc.pdf"     target="_blank">pdf</A>, <a href="lartc.pdf.gz">pdf.gz</A>
         <li><a href="lartc.db"      target="_blank">DocBook SGML</A>

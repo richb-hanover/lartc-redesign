@@ -9,12 +9,9 @@
 
 <H2>Manpages for the tc commands</H2>
 <p>
-    With your help, we are writing manpages for tc. These pages will
-    complement the <a href=http://lartc.org/>HOWTO</a> and are intented to be
-    donated to Alexey, the tc author, for inclusion in the distribution.
-</p>
-<p>
-    HTML output is somewhat shoddy in places, but looks nice:
+    These are the manpages for tc and ip. These pages
+    complement the <a href=http://lartc.org/>HOWTO</a>.
+    They have been updated to use the man8 pages from Ubuntu 13.10.
 </p>
 <table border=1>
 <?

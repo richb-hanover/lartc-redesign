@@ -5,7 +5,7 @@ HOWTODOCS := howto/ html.tar.gz lartc.txt lartc.dvi lartc.pdf lartc.pdf.gz lartc
 all: $(HOWTODOCS) contriblist changelog.txt
 
 clean:
-	rm -rf $(HOWTODOCS) contriblist lartc.aux lartc.log lartc.out
+	rm -rf $(HOWTODOCS) contriblist lartc.aux lartc.log lartc.out changelog.txt
 
 %.pdf.gz: %.pdf
 	gzip < $<  > $@
