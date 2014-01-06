@@ -32,7 +32,9 @@ html.tar.gz: howto/
 	docbook2dvi $<
 
 %.epub: %.db
-	xmlto epub $<
+	# Tack URL onto end of first line to make it pass XML criteria
+	sed -e '1s#># "http://www.oasis-open.org/docbook/xml/4.1/docbookx.dtd" > #' $< >/tmp/lartc.db 
+	xmlto epub /tmp/lartc.db > lartc.epub
 
 lartc.html: lartc.db
 	docbook2html --nochunks lartc.db
