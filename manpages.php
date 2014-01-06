@@ -34,20 +34,28 @@ function manpage($name,$desc="",$there=0)
 }
     manpage("tc","The main command",1);
     manpage("ip","The main command",1);
-    manpage("tc-bfifo","Byte limited First In First Out (redirect to pbfifo)",0);
+    manpage("tc-bfifo","Byte limited First In First Out (redirect to pbfifo)",1);
     manpage("tc-filter","tc filters in depth",0);
     manpage("tc-cbq","The Class Based Queueing qdisc",1);
-    manpage("tc-cbq-details","The Class Based Queueing qdisc in gory detail",0);
-    manpage("tc-dsmark","The DiffServ qdisc");
+    manpage("tc-cbq-details","The Class Based Queueing qdisc in gory detail",1);
+    manpage("tc-choke","TC_CHOKE?",1);
+    manpage("tc-codel","Controlled Delay",1);
+    manpage("tc-fq_codel","Fair Queueing - Controlled Delay",1);
+    manpage("tc-drr","TC_DRR?",1);
+    manpage("tc-dsmark","The DiffServ qdisc",0);
+    manpage("tc-ematch","TC_EMATCH?",1);
+    manpage("tc-hfsc","TC_HSFB?",1);
     manpage("tc-htb","The Hierarchy Token Bucket qdisc",1);
+    manpage("tc-netem","TC_NETEM?",1);
     manpage("tc-pbfifo","Packet &amp; byte limited First In First Out",1);
     manpage("tc-pfifo","Packet limited First In First Out (redirect to pbfifo)",0);
     manpage("tc-pfifo_fast","Default three-band scheduler",1);
     manpage("tc-prio","N-band classful scheduler",1);
     manpage("tc-red","Random Early Detection",1);
+    manpage("tc-sfb","TC_SFB?",1);
     manpage("tc-sfq","Stochastic Fairness Queueing",1);
+    manpage("tc-stab","TC_STAB?",1);
     manpage("tc-tbf","Token Bucket Filter",1);
-    manpage("tc-fq_codel","Fair Queueing - Controlled Delay",0);
 ?>
 </table>
 
