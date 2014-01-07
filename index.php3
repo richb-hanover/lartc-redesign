@@ -12,27 +12,32 @@
     <p>
         Linux has very advanced routing, filtering and traffic shaping options.
         This site documents how to configure and use these features, as well
-        as a whole body of information about Linux networking.
+        as a whole body of information about networking in Linux 2.2 and 2.4.
     </p>
-    <p>
+        <p>
         This site pulls together information about the Linux ip and tc
         commands that are part of the iproute2 package that provide this power and flexibility.
-        Read the HOWTO section for the gory details of networking in Linux 2.2 and 2.4.
+        Read the HOWTO section for the gory details of networking.
         You can also read the <a href="manpages.php3" target="_blank">manpages section</a>
         to learn about individual tc and ip commands.
+    </p>
+    <p>
+        <em>Note: There have been many relevant developments &mdash; especially
+            in networking &mdash; in Linux  up through the current
+            3.12 kernel that should be incorporated into this document. </em>
     </p>
     <p>
         The pages of this site are also contained in a git repository
         so that others can contribute to the site.
         See the <a href="index.php3#participate">Participate</a> section for more details.
-
+    <p>
 
         <!-- http://repo.or.cz/w/lartc.git">
         http://repo.or.cz/w/lartc.git</a>. Please send any patches or
         pull requests to the LARTC mailing list
         <a href="mailto:lartc@vger.kernel.org">lartc@vger.kernel.org</a> and
         I'll try to integrate them in a timely manner.-->
-    <p>
+
 
 
     </p>
