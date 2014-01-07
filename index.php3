@@ -7,7 +7,7 @@
     <p>
         <em>Note: This site contains the contents of the original LARTC site
             (<a href="http://lartc.org">http://lartc.org</a>), reformatted to use Bootstrap3
-            CSS. It still has a number of broken links. We'll fix them over time.</em>
+            CSS. It still has a number of broken links. We'll fix them as we go.</em>
     </p>
     <p>
         Linux has very advanced routing, filtering and traffic shaping options.
@@ -17,13 +17,15 @@
     <p>
         This site pulls together information about the Linux ip and tc
         commands that are part of the iproute2 package that provide this power and flexibility.
-        Read the HOWTO section for the full run-down of
-    </p>
-    <p>
-        The pages of this site are also contained in a git repository so that others can contribute to the site.
-        See the <a href="index.php3#participate">Participate</a> section for more details.
+        Read the HOWTO section for the gory details of networking in Linux 2.2 and 2.4.
         You can also read the <a href="manpages.php3" target="_blank">manpages section</a>
         to learn about individual tc and ip commands.
+    </p>
+    <p>
+        The pages of this site are also contained in a git repository
+        so that others can contribute to the site.
+        See the <a href="index.php3#participate">Participate</a> section for more details.
+
 
         <!-- http://repo.or.cz/w/lartc.git">
         http://repo.or.cz/w/lartc.git</a>. Please send any patches or
@@ -64,15 +66,15 @@
     The HOWTO, in several formats:
      <ul>
         <li>
-            <a href="howto/"        target="_blank">HTML</A>,
-            <a href="lartc.html"    target="_blank">One-big-page HTML</A>,
-            <a href="html.tar.gz"   target="_blank">HTML tarfile</A></li>
-        <li><a href="lartc.epub"    target="_blank">ePub</a></li>
-        <li><a href="lartc.ps"      target="_blank">ps</A>, <a href="lartc.ps.gz">ps.gz</A></li>
-        <li><a href="lartc.pdf"     target="_blank">pdf</A>, <a href="lartc.pdf.gz">pdf.gz</A>
-        <li><a href="lartc.db"      target="_blank">DocBook SGML</A>
-        <li><a href="lartc.txt"     target="_blank">ASCII</A> (.txt)
-        <li><a href="changelog.txt" target="_blank">GIT Changelog</a>
+            <a href="howto/index.html" target="_blank">HTML</A>,
+            <a href="lartc.html"       target="_blank">One-big-page HTML</A>,
+            <a href="html.tar.gz"      target="_blank">HTML tarfile</A></li>
+        <li><a href="lartc.epub"       target="_blank">ePub</a></li>
+        <li><a href="lartc.ps"         target="_blank">ps</A>, <a href="lartc.ps.gz">ps.gz</A></li>
+        <li><a href="lartc.pdf"        target="_blank">pdf</A>, <a href="lartc.pdf.gz">pdf.gz</A>
+        <li><a href="lartc.db"         target="_blank">DocBook SGML</A>
+        <li><a href="lartc.txt"        target="_blank">ASCII</A> (.txt)
+        <li><a href="changelog.txt"    target="_blank">GIT Changelog</a>
     </ul>
         Current version is 1.0.1. Files were last updated at 2012-05-19 12:40:48 UTC.
     </div> <!-- HOWTO -->

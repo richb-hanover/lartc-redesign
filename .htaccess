@@ -1,2 +1,8 @@
 Redirect permanent /autoloadbalance.php3 /autoloadbalance.html
 Redirect permanent /howto/lartc.intro.cvs.html /howto/lartc.intro.git.html
+
+DirectoryIndex index.php3
+
+Options -Indexes
+
+ErrorDocument 403 /lartc/index.php3
