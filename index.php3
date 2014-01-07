@@ -21,8 +21,8 @@
     </p>
     <p>
         The pages of this site are also contained in a git repository so that others can contribute to the site.
-        See the <a href="index.php#participate">Participate</a> section for more details.
-        You can also read the <a href="manpages.php" target="_blank">manpages section</a>
+        See the <a href="index.php3#participate">Participate</a> section for more details.
+        You can also read the <a href="manpages.php3" target="_blank">manpages section</a>
         to learn about individual tc and ip commands.
 
         <!-- http://repo.or.cz/w/lartc.git">
@@ -38,12 +38,12 @@
 
     <div id="wondershaper" style="float:right; width:350px;background:#eee;padding:10px;border-radius: 6px;">
         <h4>Wondershaper</h4>
-        <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php">It's getting better!</a>
+        <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php3">It's getting better!</a>
 
         </p>
     </div> <!-- wondershaper -->
 
-    <div id="download">
+    <div id="howto">
     <h2>The HOWTO</h2>
     <p>
         <!-- Current version of the LARTC HOWTO is 1.0.0. Files were last updated at

@@ -34,7 +34,7 @@
 
     <h2>The Result</h2>
     <p>The result was the Wondershaper - and it worked great when a fast internet connection worked at 200kbps.
-    He got good ping times even when max'ing out the line.
+    He got good ping times even when max'ing out the line with high traffic.
 
     <pre>
         Before, without wondershaper, while uploading:
