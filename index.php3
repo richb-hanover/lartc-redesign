@@ -82,21 +82,21 @@
     <div id="translations">
 
         <h2>Translations:</h2>
-        <p>
-        <a href=LARTC-zh_CN.GB2312.pdf>[ Chinese (zh_CN.GB2312) ] </a>
-        <br><a href=http://www.linux-france.org/prj/inetdoc/guides/Advanced-routing-Howto/>
-        [ French ]</a> (fixed)
-        <br><a href="http://www.linux.or.jp/JF/JFdocs/Adv-Routing-HOWTO/">
-        [ Japanese (Nihongo) ]</a>
-        <br><a href="http://www.gnukorea.org/">
-        [ Korean #1 ]</a>
-        <br><a href="http://www.gnukorea.org/2.4routing-kr/2.4routing.html">
-        [ Korean #2 ]</a>
-        <br><a href=http://www.gulic.org/comos/LARTC>
-        [ Spanish ]</a>
-        <br><a href=http://mr0vka.eu.org/tlumaczenia/2.4routing.html>
-        [ Polish ]</a>
-        </p>
+        <ul>
+        <li><a href=LARTC-zh_CN.GB2312.pdf>[ Chinese (zh_CN.GB2312) ] </a></li>
+        <li><a href=http://www.linux-france.org/prj/inetdoc/guides/Advanced-routing-Howto/>
+        [ French ]</a> (fixed)</li>
+        <li><a href="http://www.linux.or.jp/JF/JFdocs/Adv-Routing-HOWTO/">
+        [ Japanese (Nihongo) ]</a></li>
+        <li><a href="http://www.gnukorea.org/">
+        [ Korean #1 ]</a></li>
+        <li><a href="http://www.gnukorea.org/2.4routing-kr/2.4routing.html">
+        [ Korean #2 ]</a></li>
+        <li><a href=http://www.gulic.org/comos/LARTC>
+        [ Spanish ]</a></li>
+        <li><a href=http://mr0vka.eu.org/tlumaczenia/2.4routing.html>
+        [ Polish ]</a></li>
+        </ul>
         <p>
             The French version made available by Laurent Foucher and Philippe Latu from the
             <a href=http://www.linux-france.org/prj/inetdoc>
