@@ -1,4 +1,5 @@
-/howto/
+/howto/lartc*
+/howto/index.html
 /manpages/ip.html
 /manpages/tc*.html
 /html.tar.gz
