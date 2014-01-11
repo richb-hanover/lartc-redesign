@@ -11,7 +11,9 @@
 <p>
     These are the manpages for tc and ip. These pages
     complement the <a href=http://lartc.org/>HOWTO</a>.
-    They have been updated to use the man8 pages from Ubuntu 13.10.
+</p>
+    <p>
+    <em>Note:</em> The pages below have been updated with the man8 pages from Ubuntu 13.10.
 </p>
 <table border=1>
 <?
