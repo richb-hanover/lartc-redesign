@@ -36,13 +36,13 @@
     <p>The result was the Wondershaper - and it worked great when a fast internet connection worked at 200kbps.
     He got good ping times even when max'ing out the line with high traffic.
 
-    <pre>
-        Before, without wondershaper, while uploading:
-        round-trip min/avg/max = 2041.4/<font color=#ff0000>2332.1</font>/2427.6 ms
+<pre>
+Before, without wondershaper, while uploading:
+round-trip min/avg/max = 2041.4/<font color=#ff0000>2332.1</font>/2427.6 ms     <== Extremely high ping times - 2300msec is 2.3 seconds!
 
-        After, with wondershaper, during 220kbit/s upload:
-        round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms
-    </pre>
+After, with wondershaper, during 220kbit/s upload:
+round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms           <== Slightly elevated ping times - 51msec is one-twentieth of a second
+</pre>
 
     </p>
 
