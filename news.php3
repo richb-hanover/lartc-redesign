@@ -5,9 +5,21 @@
     <div><a name="news"></a></div>
     <h2>News</H2>
     <dl>
-        <dt>2014-01-06</dt>
-        <dd><p>lartc.org has been converted to use Bootstrap3 CSS;
-            man pages updated to use versions from Ubuntu 13.10; </p></dd>
+        <dt>January 2014</dt>
+        <dd><p>lartc.org has been redesigned to include these changes:
+            <ul>
+                <li>Substantially the same text with minor reorganization and editorial changes</li>
+                <li>New ePub format for the HOWTO</li>
+                <li>Ported to use Bootstrap3 CSS for a modern look</li>
+                <li>Incorporates the man8 pages from Ubuntu 13.10, including several new ones:
+                    tc-codel, tc-fq_codel, tc-choke, tc-drr, tc-dsmark, tc-hfsc, tc-sfb, tc-stab, and others</li>
+                <li>Updated Wondershaper page to mention traffic shaping techniques of
+                    newer Linux kernels, and how the original shaper is outdated</li>
+                <li>The HOWTO has *not* been updated to reflect these newer technologies,
+                    nor do these pages include any updates that may have been
+                    submitted from the LARTC community or mailing list</li>
+            </ul>
+        </dd>
 
         <dt>2012-05-20</dt>
         <dd><p>lartc.org is now reachable via IPv6!</p></dd>

@@ -5,7 +5,7 @@
 <H1>The Wonder Shaper</H1>
     <p>
         Back in 2002, Bert Hubert &lt;ahu@ds9a.nl&gt; attempted to create the holy grail.
-        A tool that would handle network through a router with these characteristics:
+        A tool that would handle traffic through a router with these characteristics:
         <ul>
             <li><strong> Maintain low latency for interactive traffic at all times</strong>
                 This means that downloading or uploading files should not disturb SSH or
@@ -38,10 +38,10 @@
 
 <pre>
 Before, without wondershaper, while uploading:
-round-trip min/avg/max = 2041.4/<font color=#ff0000>2332.1</font>/2427.6 ms     <== Extremely high ping times - 2300msec is 2.3 seconds!
+round-trip min/avg/max = 2041.4/<font color=#ff0000>2332.1</font>/2427.6 ms  <== Extremely high ping times - 2300msec is 2.3 seconds!
 
 After, with wondershaper, during 220kbit/s upload:
-round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms           <== Slightly elevated ping times - 51msec is one-twentieth of a second
+round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms        <== Slightly higher times - 51msec is a twentieth of a second
 </pre>
 
     </p>
@@ -61,13 +61,13 @@ round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms           
         such as voice or video chat, gaming, larger MTU's, PPPoE, ATM, IPv6, etc.
         See, for example, Dave T&auml;ht's
         <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Wondershaper_Must_Die">
-            Wondershaper Must Die editorial.</a>, where he writes:
+            Wondershaper Must Die essay</a>, where he writes:
     <blockquote>
         At the time wondershaper was developed, DSL MTUs were typically 584 bytes
         and encapsulation-aware techniques that compensated for ATM and PPPoE didn't
-        exist. An entire masters thesis got written by Jesper Brouer on fixing htb to
+        exist. An entire masters thesis got written by Jesper Brouer on fixing htb
         to work right with ATM framing and the code landed in the kernel in 2005.
-        http://www.adsl-optimizer.dk/
+        <a href="http://www.adsl-optimizer.dk/">http://www.adsl-optimizer.dk/</a>
         <br /><br />
         Wondershaper was pretty optimal at 800kbit down 220 up, in an age of IW2
         web pages averaging in size of 70k, coexisting with ssh traffic and voip, in 2002.

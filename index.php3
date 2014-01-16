@@ -9,6 +9,9 @@
             (<a href="http://lartc.org">http://lartc.org</a>).
             It has been slightly re-organized, and reformatted to use Bootstrap3 CSS.
             It still has a number of broken links. We'll fix them as we go.
+            In addition, there have been many relevant developments &mdash; especially
+            in networking &mdash; in Linux  up through the current
+            3.12 kernel that have not yet been incorporated into this document.
         </em>
     </p>
     <p>
@@ -21,14 +24,7 @@
         Read the HOWTO section for the gory details of networking.
         You can also read the <a href="manpages.php3" target="_blank">manpages section</a>
         to learn about individual tc and ip commands.
-        The information on this site is current for networking in Linux 2.2 and 2.4
-    </p>
-    <p>
-        <em>Note: There have been many relevant developments &mdash; especially
-            in networking &mdash; in Linux  up through the current
-            3.12 kernel that have not yet been incorporated into this document. </em>
-    </p>
-    <p>
+        The information on this site is current for networking in Linux 2.2 and 2.4.
         The pages of this site are also contained in a git repository
         so that others can contribute to the site.
         See the <a href="index.php3#participate">Participate</a> section for more details.
