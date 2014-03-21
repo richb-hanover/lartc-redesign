@@ -5,16 +5,6 @@
 <div id="home">
 <H1>Linux Advanced Routing &amp; Traffic Control</H1>
     <p>
-        <em>Note: This site contains the lion's share of the contents from the original LARTC site
-            (<a href="http://lartc.org">http://lartc.org</a>).
-            It has been slightly re-organized, and reformatted to use Bootstrap3 CSS.
-            It still has a number of broken links. We'll fix them as we go.
-            In addition, there have been many relevant developments &mdash; especially
-            in networking &mdash; in Linux  up through the current
-            3.12 kernel that have not yet been incorporated into this document.
-        </em>
-    </p>
-    <p>
         Linux has very advanced routing, filtering and traffic shaping options.
 
         This site pulls together information about the Linux ip and tc
@@ -43,14 +33,14 @@
 
     <div id="wondershaper" style="float:right; margin-left:10px; width:320px;background:#eee;padding:0px 10px;border-radius: 6px;">
         <h4>Wondershaper</h4>
-        <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php3">It's getting better!</a>
+        <p>Looking for the ADSL/Cable Wondershaper? <a href="wondershaper.php3"><br />Read the latest.</a>
 
         </p>
     </div> <!-- wondershaper -->
 
     <div id="howto">
     <h2>The HOWTO</h2>
-    <p>
+   <p>
         The HOWTO is a large, multi-chapter document that covers all of Linux networking in the 2.2 and 2.4 kernels.
     It is available in several formats:
      <ul>
@@ -65,7 +55,11 @@
         <li><a href="lartc.txt"        target="_blank">ASCII</A> (.txt)
         <li><a href="changelog.txt"    target="_blank">GIT Changelog</a>
     </ul>
-        <!-- Current version is 1.0.1. Files were last updated at 2012-05-19 12:40:48 UTC. -->
+        <p><em>Note: There have been many relevant developments &mdash; especially
+            in networking &mdash; in Linux up through the current
+            3.14 kernel that have not yet been incorporated into this document.
+        </em></p>
+       <!-- Current version is 1.0.1. Files were last updated at 2012-05-19 12:40:48 UTC. -->
         <!-- Current version of the LARTC HOWTO is 1.0.0. Files were last updated at
            <?
            date_default_timezone_set("EST");
@@ -156,6 +150,16 @@ $ git pull
         <li>Multipath routing
     </ul>
 </div> <!-- participate -->
+
+	<h4>About this site</h4>
+	    <p>
+        <em>Note: This site has been slightly re-organized, and reformatted to use Bootstrap3 CSS.
+        	It contains the lion's share of the contents from the original LARTC site
+            (<a href="http://lartc.org">http://lartc.org</a>).
+            It may still have some broken links. We'll fix them as we go.
+        </em>
+    </p>
+
 
 </div> <!-- end of content of the document -->
 

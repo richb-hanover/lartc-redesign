@@ -76,20 +76,42 @@ round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms        <==
     </p>
 
     <h2>What should be done?</h2>
-
     <p>
         Wondershaper - as wonderful as it was in its day - needs to be replaced.
-        "Just patching it" won't work, and will miss out on a lot of the new research
-        into packet queueing and minimizing latency.
+        Several "next generation" or "version 2" replacements  have been proposed, 
+        but it appears that they're just patching the original. 
+        These projects miss out on a lot of the new research
+        into packet queueing and minimizing latency. 
     </p>
-    <p>
-        A number of people are working on a replacement. Their solutions are now in testing to be sure that
-        they meet their claims and provide a suitable replacement.
+        
+	<p>There are solutions available today. Those projects use active queue management 
+		such as fq_codel, PIE, or other queue disciplines to manage the bottleneck link 
+		and allocate a fair share of the capacity to each flow of traffic running through the link. 
+		Both these sites offer examples of modern traffic shaping:
+        
+        <ul>
+        	<li>The <a href="https://wiki.gentoo.org/wiki/Traffic_shaping">traffic shaping example in gentoo.</a> 
+        		It also gives the kernel requirements for HTB, FQ_CODEL, and ingress queueing disciplines.</li>
+        	<li>The <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Smart_Queue_Management">
+        		Smart Queue Management (SQM) code in CeroWrt.</a> 
+        		This work is being pushed into the <a href="http://openwrt.org">OpenWrt</a> mainline, 
+        		so they can be available on a wide variety of home routers.</li>
+        </ul>
     </p>
 
+	<p>Finally there many test tools for measuring latency and bandwidth reliably
+		to see if changes to filters and shapers have made an improvement. 
+		The <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Quick_Test_for_Bufferbloat">
+		Quick Test for BufferBloat</a> tells how to use http://speedtest.net to tell whether your
+		connection is bloated. It also mentions other tools for measuring performance and latency.
+			</p>
+    
     <h2>Links to the outdated Wondershaper</h2>
 
     <p>
+    	For historical purposes, here are links to the earlier Wondershaper:
+    </p>
+    <p>	
         Wondershaper by <a href=http://ds9a.nl>bert hubert</a> &lt;ahu@ds9a.nl&gt;
         &copy; Copyright 2002, Licensed under the GPL.<br>
         Originally part of the <a href=http://lartc.org>
