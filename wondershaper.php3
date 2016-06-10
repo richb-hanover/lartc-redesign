@@ -1,4 +1,4 @@
-<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
+<?php readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container">     <!-- Content of the document -->
 
@@ -134,4 +134,4 @@ round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms        <==
 </div> <!-- end of content of the document -->
 
 <!-- Read in the footer for the every page -->
-<? readfile("./footer.html"); ?>
+<?php readfile("./footer.html"); ?>

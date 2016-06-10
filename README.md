@@ -28,3 +28,5 @@ To move the site to a new server, do the following steps:
 Then copy the entire 'lartc' folder to your web server.
 
 Note: Use `git pull` to retrieve subsequent updates from the github repository.
+
+Note: This site is currently available at http://lartc.richb-hanover.com

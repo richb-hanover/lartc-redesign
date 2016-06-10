@@ -1,4 +1,4 @@
-<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
+<?php readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container">     <!-- Content of the document -->
 
@@ -29,7 +29,7 @@
 
         <h4>Our community</h4>
 
-        <? readfile("./contriblist"); ?>
+        <?php readfile("./contriblist"); ?>
 
         <h4>Site Hosting</h4>
         <a href="http://www.powerdns.com">
@@ -44,4 +44,4 @@
 
 </div> <!-- end of content of the document -->
 
-<? readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->
+<?php readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->

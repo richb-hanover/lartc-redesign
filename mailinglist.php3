@@ -1,4 +1,4 @@
-<? readfile("./header.html"); ?> <!-- Read in the header of the every page -->
+<?php readfile("./header.html"); ?> <!-- Read in the header of the every page -->
 
 <div class="container" id="mailinglist">     <!-- Content of the document -->
     <a name="mailinglist"></a>
@@ -40,4 +40,4 @@
 
 </div> <!-- end of content of the document -->
 
-<? readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->
+<?php readfile("./footer.html"); ?> <!-- Read in the footer for the every page -->
