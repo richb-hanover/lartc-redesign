@@ -16,7 +16,7 @@
     <em>Note:</em> The pages below have been updated with the man8 pages from Ubuntu 13.10.
 </p>
 <table border=1>
-<?
+<?php
 function manpage($name,$desc="",$there=0)
 {
 	print("<tr><td>$name</td><td>$desc</td>");

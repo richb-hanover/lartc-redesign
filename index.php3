@@ -61,7 +61,7 @@
         </em></p>
        <!-- Current version is 1.0.1. Files were last updated at 2012-05-19 12:40:48 UTC. -->
         <!-- Current version of the LARTC HOWTO is 1.0.0. Files were last updated at
-           <?
+           <?php
            date_default_timezone_set("EST");
            if(!($st=stat("lartc.db")))
                $st=stat("lartc.db");
