@@ -1,11 +1,11 @@
-#LARTC Site - Redesigned
+# LARTC Site - Redesigned
 
-This git repo contains substantially all the contents of the original LARTC site at http://lartc.org.
+This git repo contains substantially all the contents of the original LARTC site at [http://lartc.org](http://lartc.org).
 It has the following changes/updates:
 
 * Substantially the same text with minor reorganization and editorial changes
-* New ePub format for the HOWTO
 * Ported to use Bootstrap3 CSS for a modern look
+* New ePub format for the HOWTO
 * Incorporates the man8 pages from Ubuntu 13.10, including several new ones: tc-codel, tc-fq_codel, tc-choke, tc-drr, tc-dsmark, tc-hfsc, tc-sfb, tc-stab, and others
 * Updated Wondershaper page to mention traffic shaping techniques of newer Linux kernels, and how the original shaper is outdated
 * The HOWTO has *not* been updated to reflect these newer technologies, nor do these pages include any updates that may have been submitted from the LARTC community or mailing list
