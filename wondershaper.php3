@@ -33,7 +33,7 @@
     </p>
 
     <h2>The Result</h2>
-    <p>The result was the Wondershaper - and it worked great when a fast internet connection worked at 200kbps.
+    <p>The result was the Wondershaper &mdash; and it worked great when a fast internet connection worked at 200kbps.
     He got good ping times even when max'ing out the line with high traffic.
 
 <pre>
@@ -61,7 +61,7 @@ round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms        <==
         such as voice or video chat, gaming, larger MTU's, PPPoE, ATM, IPv6, etc.
         See, for example, Dave T&auml;ht's
         <a href="https://www.bufferbloat.net/projects/bloat/wiki/Wondershaper_Must_Die/">
-            Wondershaper Must Die essay</a>, where he writes:
+            Wondershaper Must Die essay</a> (2013), where he writes:
     <blockquote>
         At the time wondershaper was developed, DSL MTUs were typically 584 bytes
         and encapsulation-aware techniques that compensated for ATM and PPPoE didn't
@@ -75,34 +75,33 @@ round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms        <==
     </blockquote>
     </p>
 
-    <h2>What should be done?</h2>
+    <h2>What can be done?</h2>
     <p>
-        Wondershaper - as wonderful as it was in its day - needs to be replaced.
+        Wondershaper &mdash; as wonderful as it was in its day &mdash; needs to be replaced.
         Several "next generation" or "version 2" replacements  have been proposed, 
         but it appears that they're just patching the original. 
         These projects miss out on a lot of the new research
         into packet queueing and minimizing latency. 
     </p>
         
-	<p>There are solutions available today. Those projects use active queue management 
-		such as fq_codel, PIE, or other queue disciplines to manage the bottleneck link 
+	<p>As of mid-2018, there are solutions available. Those projects use active queue management 
+		such as fq_codel, cake, PIE, or other queue disciplines to manage the bottleneck link 
 		and allocate a fair share of the capacity to each flow of traffic running through the link. 
-		Both these sites offer examples of modern traffic shaping:
-        
+		These sites offer examples of modern traffic shaping:
         <ul>
-        	<li>The <a href="https://wiki.gentoo.org/wiki/Traffic_shaping">traffic shaping example in gentoo.</a> 
-        		It also gives the kernel requirements for HTB, FQ_CODEL, and ingress queueing disciplines.</li>
-        	<li>The <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Smart_Queue_Management">
-        		Smart Queue Management (SQM) code in CeroWrt.</a> 
-        		This work is being pushed into the <a href="http://openwrt.org">OpenWrt</a> mainline, 
-        		so they can be available on a wide variety of home routers.</li>
+        	<li>The <b>codel</b> and <b>cake</b> <a href="https://openwrt.org/docs/guide-user/network/traffic-shaping/sqm">
+        		Smart Queue Management (SQM) algorithms</a> (originally developed in CeroWrt)
+        		have been pushed into the <a href="http://openwrt.org">OpenWrt</a> mainline, 
+        		and are now available on a wide variety of commercial routers (<a href="https://evenroute.com">IQrouter</a>, <a href="https://www.ubnt.com/">Ubiquiti</a>, and others) and third-party firmware via OpenWrt, DD-Wrt, and other routers.</li>
+            <li>The <a href="https://wiki.gentoo.org/wiki/Traffic_shaping">traffic shaping example  in gentoo.</a> 
+                It also gives the kernel requirements for HTB, FQ_CODEL, and ingress queueing disciplines.</li>
         </ul>
     </p>
 
 	<p>Finally there many test tools for measuring latency and bandwidth reliably
 		to see if changes to filters and shapers have made an improvement. 
 		The <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Quick_Test_for_Bufferbloat">
-		Quick Test for BufferBloat</a> tells how to use http://speedtest.net to tell whether your
+		Quick Test for BufferBloat</a> tells about tools that indicate whether your
 		connection is bloated. It also mentions other tools for measuring performance and latency.
 			</p>
     
