@@ -60,7 +60,7 @@ round-trip min/avg/max = 15.7/<font color=#ff0000>51.8</font>/79.9 ms        <==
         Finally, the original Wondershaper simply doesn't take into account newer technologies,
         such as voice or video chat, gaming, larger MTU's, PPPoE, ATM, IPv6, etc.
         See, for example, Dave T&auml;ht's
-        <a href="http://www.bufferbloat.net/projects/cerowrt/wiki/Wondershaper_Must_Die">
+        <a href="https://www.bufferbloat.net/projects/bloat/wiki/Wondershaper_Must_Die/">
             Wondershaper Must Die essay</a>, where he writes:
     <blockquote>
         At the time wondershaper was developed, DSL MTUs were typically 584 bytes
